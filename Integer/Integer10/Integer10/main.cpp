@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     cin>>a;
     
     units = a % 10;
-    tens = a % 100 - units;
+    tens = (a % 100 - units)/10;
     
     cout<<"Units= "<<units<<", Tens= "<<tens<<endl;
     
